@@ -1,28 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-<link rel="stylesheet" type="text/CSS" href="style.css">
+li {
+    float: left;
+}
 
-  <meta charset="UTF-8" />
-  <title>Why or Why Not?</title>
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-</head>
-<body>
+li a:hover {
+    background-color: #111;
+}
 
-  <ul>
-  <li><a class="active" href="index.html">Introduction</a></li>
-  <li><a href="page1.html">Why or Why Not?</a></li>
-  <li><a href="page2.html">My Point of Veiw</a></li>
-  <li><a href="page3.html">Conclusion</a></li>
-</ul>
-
- <h1> My Point of View
- <h1/>
-  <p> My Point of view:
-  Downloading music illegaly can be very helpful to most people. But there are also risks that come with it. Overall taking information from both sides i think the answer i have come to is that no. Music shouldn't be downloaded illegaly. This is because there are many free services that let you stream music for free and safely. This is my look on the whole sittuation.
-
-    <script src="scripts/index.js"></script>
-
-</body>
-</html>
+ body {background-color: white}
+h1 {color: Black;text-align:center;}
+h2 {color: Black;text-align:left;}
+p {color: Black;}
+p {font-size: 20px;
+}
